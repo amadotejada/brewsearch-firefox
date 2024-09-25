@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "BrewSearch",
+  "version": "0.0.2",
+  "description": "Look up Homebrew packages from the address bar. Created by Amado Tejada.",
+  "homepage_url": "https://github.com/amadotejada/brewsearch-firefox",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "omnibox": {
+    "keyword": "brew"
+  },
+  "icons": {    
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tejada.amado@gmail.com"
+    }
+  }
+}
